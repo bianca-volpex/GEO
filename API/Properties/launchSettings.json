@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "API_Geo": {
+    "API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",
