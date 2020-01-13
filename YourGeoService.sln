@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourGeoService", "YourGeoService\YourGeoService.csproj", "{00572359-9266-473D-8C43-D4CE10E3B1C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{47B4D414-674F-44FB-8050-D7CCDF5B8594}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API_Geo\API.csproj", "{305483A2-9D2E-430C-870C-8400BC308B35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00572359-9266-473D-8C43-D4CE10E3B1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00572359-9266-473D-8C43-D4CE10E3B1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00572359-9266-473D-8C43-D4CE10E3B1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00572359-9266-473D-8C43-D4CE10E3B1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B4D414-674F-44FB-8050-D7CCDF5B8594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B4D414-674F-44FB-8050-D7CCDF5B8594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B4D414-674F-44FB-8050-D7CCDF5B8594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B4D414-674F-44FB-8050-D7CCDF5B8594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305483A2-9D2E-430C-870C-8400BC308B35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305483A2-9D2E-430C-870C-8400BC308B35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305483A2-9D2E-430C-870C-8400BC308B35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305483A2-9D2E-430C-870C-8400BC308B35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
